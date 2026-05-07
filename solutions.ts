@@ -25,3 +25,23 @@ const user = {
     name: "John Doe",
     age: 21
 };
+
+interface Book {
+    title: string;
+    author: string;
+    publishedYear: number;
+}
+const myBook: Book = {
+    title: "TypeScript Guide",
+    author: "Jane Doe",
+    publishedYear: 2024,
+}
+interface BookWithStatus extends Book {
+    isRead: boolean;
+}
+const toggleReadStatus = (obj: Book): BookWithStatus => {
+    return {
+        ...obj,
+        isRead: true
+    }
+}
