@@ -7,3 +7,12 @@ const reverseString = (word: string): string => {
     const reversedWord = word.split('').reverse().join("");
     return reversedWord;
 }
+
+type StringOrNumber = string | number;
+const checkType = (value: StringOrNumber): string => {
+    if (typeof value === "string") {
+        return "String";
+    } else {
+        return "Number";
+    }
+}
