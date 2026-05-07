@@ -14,15 +14,6 @@ This repository contains solutions to a TypeScript assignment covering basic to 
 
 ---
 
-## 📁 Project Structure
-
-
-blog-1.md → any vs unknown & type narrowing
-blog-2.md → Generics in TypeScript
-
-
----
-
 ## 🛠️ Technologies Used
 
 - TypeScript
@@ -36,6 +27,8 @@ blog-2.md → Generics in TypeScript
 - Reverse a string
 - Create a class and subclass and getDetails method
 - Use generic in function
+
+---
 
 ## 🚀 Key Learning Outcomes
 
