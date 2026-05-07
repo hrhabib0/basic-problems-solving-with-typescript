@@ -16,3 +16,12 @@ const checkType = (value: StringOrNumber): string => {
         return "Number";
     }
 }
+
+const getProperty = <T, K extends keyof T>(user: T, key: K) => {
+    return user[key];
+}
+const user = {
+    id: 1,
+    name: "John Doe",
+    age: 21
+};
